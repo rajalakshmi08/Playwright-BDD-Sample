@@ -1,0 +1,15 @@
+{
+  "loginPage": {
+    "usernameInput": "[name=\"username\"]",
+    "passwordInput": "[name=\"password\"]"
+  },
+  "leavePage": {
+    "leaveLinkToClick": "Leave",   
+    "dateField": "input[placeholder=\"yyyy-dd-mm\"]",
+    "pendingApprovalSelected": ".oxd-multiselect-chips-selected",
+    "resetButton": "[type=\"reset\"]",
+    "tableRow": ".oxd-table-row",
+    "commentsHeader": "Comments"
+  },
+  "submitButton": "[type=\"submit\"]"
+}

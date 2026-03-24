@@ -1,0 +1,14 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "homePageTextToVerify": "OrangeHRM OS",
+  "buttonToVerify": "Upgrade",
+  "leaveTextToVerify": "My Leave",
+  "fromDateValue": "2026-06-01",
+  "toDateValue": "2026-30-11",
+  "pendingApprovalTextToVerify": "Pending Approval",
+  "scheduledTextToVerify": "Scheduled",
+  "recordTextToVerify": "Record"
+}
