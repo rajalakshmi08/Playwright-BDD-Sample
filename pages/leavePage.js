@@ -16,9 +16,9 @@ class leavePage {
   async clickLink(link) {
       try {
         //Clicking on leave link
-        await this.page.getByRole('link', { name: link}).click();
-        await expect(this.page.getByText(testConfig.leaveTextToVerify)).toBeVisible();
-        const isTextVisible = await this.page.getByText(testConfig.leaveTextToVerify).isVisible(); 
+        await this.page.locator(locatorsConfig.leavePage.leaveLink).click();
+        await expect(this.page.getByText(testConfig.buttonToVerify)).toBeVisible();
+        const isTextVisible = await this.page.getByText(testConfig.buttonToVerify).isVisible(); 
         
         if (isTextVisible) {
           console.log(`${link} Link navigated successfully: Passed`);
@@ -85,7 +85,7 @@ class leavePage {
         } 
 
         if (await rows.count() > 1) {
-            console.log('Grid loaded successfully with records');
+            console.log('Grid loaded successfully with (${await rows.count() -1}) records');
         } else {
             console.log('Grid loaded sucessfully with no records found');
         }
