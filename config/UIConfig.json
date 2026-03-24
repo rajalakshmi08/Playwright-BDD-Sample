@@ -4,7 +4,7 @@
     "passwordInput": "[name=\"password\"]"
   },
   "leavePage": {
-   "leaveLink": "a[href*=\"leave\"]",  
+    "leaveLink": "a[href*=\"leave\"]",  
     "dateField": "input[placeholder=\"yyyy-dd-mm\"]",
     "pendingApprovalSelected": ".oxd-multiselect-chips-selected",
     "resetButton": "[type=\"reset\"]",
